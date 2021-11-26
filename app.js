@@ -618,28 +618,145 @@
 // }
 
 // ------------------------------------------------------------------------------------------------------------------------
+                    
+                    //  CHAPTER 31 - 34
+
+// QUESTION # 01 :
+
+// var now =new Date()
+// document.write(now)
+
+// QUESTION # 02:
+// var months = ["January" , "February" , "March" , "April" , "May" , "June" , "July" , "August" , "September" , "October" , "November" , "December"]
+// var a = new Date();
+// var currentmonth = months [a.getMonth()];
+// alert("Current Month :" +" "+ currentmonth);
+
+// QUESTION # 03:
+// var days = ["Sunday" , "Monday" , "Tuesday" , "Wednesday" , "Thursday" , "Friday" , "Saturday"];
+// var b = new Date();
+// var currentday = days[b.getDay()].slice(0,3);
+// alert(currentday);
+
+// QUESTION # 04:
+
+        //    FIRST METHOD 
+// var a = prompt("Enter day: ");
+// if( a === "Sunday" || a === "Saturday"){
+//     alert ("It is a funday")
+// }
+// else if( a === "Monday" || a === "Tuesday" || a==="Wednesday" || a==="Thursday" || a === "Firday" ) {
+//     alert ("Working Day!")
+// }
+// else{
+//     alert ("Enter valid day")
+// }
+
+        // SECOND METHOD 
+            //  ?
+
+// QUESTION # 05:
+// var d = new Date()
+// var Date = d.getDate()
+// document.write(Date)
+// if( Date > 16){
+//     document.write("last dates of the month")
+// }
+//  else if ( Date < 16){
+//     document.write("first 15 dates of the month")
+// }
+
+// QUESTION # 06:
+
+// var e = new Date();
+// document.write("Current Date:" + e);
+// var inMilli = e.getTime()
+// document.write("<br> Elapsed milliseconds since January 1,1970: " + inMilli);
+// var inMin = inMilli / (1000 * 60)
+// document.write("<br> Elapsed minutes since Januar 1,1970: " + inMin)
+
+// QUESTION # 07:
+// var a = new Date()
+// var hour = a.getHours()
+// if ( hour > 12 ){
+//     document.write("it's P.M")
+// }
+// else{
+//     document.write("It is A.M")
+// }
+ 
+    //  SECOND METHOD
+
+    // var f = new Date()
+// var hour = f.getHours()
+// if(hour < 12) {
+//     alert("It's AM")
+// }
+// else {
+//     alert("It's PM")
+// }
 
 
+// QUESTION # 08:
+// var laterDate = new Date("December 31, 2020")
+// document.write("Later Date: " + laterDate)
 
+// QUESTION # 09:
 
+// var ramadan = new Date("November 26, 2021").getTime()
+// var today = new Date().getTime()
+// var diff = today - ramadan;
+// var days = Math.floor(diff / (1000 *60*24))
+// document.write(days + "days have passed since 1st Ramadan , 2021")
 
+// QUESTION # 10:
+// var now = new Date()
+// var nowT = now.getTime()
+// var begin =new Date("January 1,2021 00:00:00").getTime()
+// var diff = Math.floor((nowT - begin) / (1000))
+// document.write("On refernce date " + now + ", <br>");
+// document.write(diff + "seconds had passed since beginnig of 2021")
 
+// QURSTION # 11:
+// var date = new Date()
+// document.write ( "current date :" + date)
+// var hours = date.getHours()
+// date = new Date(date.setHours(hours -1))
+// document.write("<br> 1 hour ago, it was " + date)
 
+// QUESTION # 12:
+// var date = new Date()
+// alert("Current date : " + date )
+// var years = date.getFullYear()
+// date = new Date(date.setFullYear(years - 100))
+// alert(" 100 years back, it was " + date)
 
+// QUESTION # 13:
+// var userAge = +prompt("Enter your age")
+// var date = new Date()
+// var currYear = date.getFullYear()
+// var age = currYear - userAge;
+// document.write("Your age is " + userAge +"<br>")
+// document.write("Your birth year is " + age)
 
+// QUESTION # 14:
+// var cusName = "Muhammad Umer Saleem"
+// var months = ["January" , "February" , "March" ,"April" , "May" , "June" , "July" , "August" , "September" , "October" , "November" , "December"];
+// var month = months[new Date().getMonth()]
+// var noOfUnits = 410
+// var chargesPerUnit = 16;
+// var netAmt = noOfUnits * chargesPerUnit
+// var latePay = 350
+// var grossAmt = netAmt + latePay
+// document.write("<h2> K-Electirc Bill </h2> <br>")
+// document.write("</br> Customer Name : <br>" + cusName)
+// document.write("</b> <br> Month: <br> " + month)
+// document.write("</b> <br> Number of units: <b>" + chargesPerUnit)
+// document.write("</b> <br> <br>")
+// document.write("Net Amount Payable (within Due Date): <b>" + latePay)
+// document.write("</b><br> Gross Amount Payable (after Due Date): <b> "+ grossAmt + "</br>")
 
-
-
-
-
-
-
-
-
-
-
-
-
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
