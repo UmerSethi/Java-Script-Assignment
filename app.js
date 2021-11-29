@@ -619,6 +619,105 @@
 
 // ------------------------------------------------------------------------------------------------------------------------
                     
+                        //  CHAPTER 14 - 20
+
+        // ARRAYS :
+
+// QUESTION # 01:
+// var stdnames = [];
+
+// QUESTION # 02:
+// var stdnames = new Array[];
+
+// QUESTION # 03:
+// var names = [Muhammad, Umer , Saleem];
+
+// QUESTION # 04:
+// var number = [10, 20, 30];
+
+// QUESTION # 05:
+// var booleanarray = [true , false , true , false];
+
+// QUESTION # 06:
+// var mixArray = [Umer,21,true];
+
+// QUESTION # 07:
+// var qualities = ["SSC" , "HSC" , "BCS" , "BS" ,"BCOM" , "MS" , "MPHIL" , "PHD"];
+// document.write("Qualification" +"<br>");
+// for(var i=0 ; i<qualities.length ; i++){
+//     document.write(i+1 +" "+qualities[i] + "<br>");
+// }
+
+// QUESTION # 08:
+
+// var names = ["Muhammad ", "Umer", "Saleem"];
+// var scores = [450, 400, 350];
+// var totalMarks = 500;
+// for(var i = 0 ; i < 3 ; i++){
+//     document.write("Score of " + names[i] + " is " + scores[i] + ".");
+//     document.write(" Percentage: " + (scores[i]/totalMarks*100) + "% <br>");
+// }
+
+
+// QUESTION # 09:
+
+//    ?
+
+
+
+
+// QUESTION # 10:
+// var stdScores = [320,230,480, 120]
+// document.write("Score of Students: " +stdScores+ "<br>")
+// stdScores.sort()
+// document.write("Ordered Scores of Student : " + stdScores)
+
+// QUESTION # 11:
+// var cities = ["Karachi" , "Lahore" ,"Islamabad" , "Quetta" , "Peshawar"];
+// var selectedcities = cities.slice(2,4)
+// document.write("CITIES LIST" +"<br>" )
+// document.write(cities + "<br>")
+// document.write("Selected cities List:" + "<br>");
+// document.write(selectedcities);
+
+// QUESTION # 12:
+// var arr = ["This" , "is" , "my" ,"cat"]
+// document.write("Array:" + "<br>" + arr +"<br>")
+// var string = arr.join(" ")
+// document.write("String: <br>" + string)
+
+// QUESTION # 13:
+// var array = [];
+// array.push("keyboard");
+// array.push("mouse");
+// array.push("printer");
+// array.push("monitor");
+// document.write("Devices: <br>" +array +"<br>")
+// for (var i=0 ; i<4; i++){
+//     document.write("Out: <br>" + array.shift() +"<br>")
+// }
+
+// QUESTION # 14:
+// var arrayy = [];
+// arrayy.push("keyboard");
+// arrayy.push("mouse");
+// arrayy.push("printer");
+// arrayy.push("monitor");
+// document.write("Devices: <br>" + arrayy + "<br><br>");
+// for(var i = 0 ; i < 4 ; i++ ){
+//     document.write("Out: <br>" + arrayy.pop() + "<br>")
+// }
+
+// QUESTION # 15:
+// var phones = ["Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+// document.write("Dropdown: <br><br>")
+// for(var i = 0 ; i < phones.length ; i++ ){
+//     document.write("> " + phones[i] + "<br>")
+// }
+
+// -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
                     //  CHAPTER 31 - 34
 
 // QUESTION # 01 :
