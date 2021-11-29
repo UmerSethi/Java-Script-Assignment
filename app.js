@@ -621,8 +621,9 @@
                     
                         //  CHAPTER 14 - 20
 
-        // ARRAYS :
-
+//         ===========================                   
+                 // ARRAYS :
+//         ===========================
 // QUESTION # 01:
 // var stdnames = [];
 
@@ -714,6 +715,102 @@
 // for(var i = 0 ; i < phones.length ; i++ ){
 //     document.write("> " + phones[i] + "<br>")
 // }
+
+
+                //   =======================================
+
+                            // ARRAYS AND LOOP
+
+                //   ======================================
+
+// QESTION # 01:
+// var multiDarray =[[],[],[]];
+
+
+// QUESTION # 02:
+// var arr1 = [0, 1, 2, 3];
+// var arr2 = [1, 0, 1, 2];
+// var arr3 =[2, 1, 0, 1];
+// var multiDiArr = [arr1 , arr2, arr3];
+// for (var i = 0; i < arr1.length ; i++){
+//     document.write(arr1[i])
+// }
+
+// document.write("<br>")
+// for (var j = 0 ; j < arr2.length; j++){
+//     document.write(arr2[j])
+// }
+
+// document.write("<br>")
+// for (var k = 0; k < arr3.length; k++){
+//     document.write(arr3[k])
+// }
+      
+
+// QUESTION # 03:
+// for(var i = 1 ; i <= 10 ; i++ ){
+//     document.write(i + "<br>")
+// }
+
+
+// QUESTION # 04:
+// var table =+prompt("Enter a number to show its multiplication table: ");
+// var length =+prompt("Enter length multiplication table: ")
+// document.write("Multiplication table of " +" "+ table +" "+ "<br>");
+// document.write("Length is" +" "+length +" "+"<br>");
+// for (var i=1; i <= length ; i++){
+//     document.write(table + "x" + i + "=" + table*i + "<br>");
+// }
+
+
+// QUESTION # 05:
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+// for(var i=0; i< fruits.length ; i++){
+//     document.write(fruits[i] +"<br>")
+// }
+// document.write("<br>")
+// for(var j=0 ; j < fruits.length ; j++){
+//     document.write("Element at index" +" "+ j +" "+ "is" +" "+ fruits[j] +" "+ "<br>")
+// }
+
+
+// QUESTION # 06:
+// document.write("<h3> Counting </h3>")
+// for (var i=1 ; i <=15 ; i++){
+//     document.write(i+ ",")
+// }
+
+// document.write("<br> <h3> Reverse Counting </h3>")
+// for(var a = 10 ; a >= 1 ; a--){
+//     document.write(a + ",")
+// }
+
+// document.write("<br> <h3>Even </h3>")
+// for (var b = 0; b<= 20 ; b = b+2){
+//     document.write(b + ",")
+// }
+
+// document.write("<br> <h3> Odd </h3>")
+// for(var c = 1 ; c <= 20 ; c=c+2){
+//     document.write(c + ",")
+// }
+
+// document.write("<br> <h3> Series</h3>")
+// for(var j = 2; j <= 20 ; j = j+2){
+//     document.write(j +"k,")
+// }
+
+
+
+// QUESTION # 10:
+// for ( i=0 ; i <=100 ; i = i+5){
+//     document.write(i + ",");
+// }
+
+
+
+
+
 
 // -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
