@@ -1176,15 +1176,253 @@
 // document.write("</b><br> Gross Amount Payable (after Due Date): <b> "+ grossAmt + "</br>")
 
 // --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+            //    CHAPTER 35 - 38
 
 
+        // ============================
+                // FUNCTION
+        // ============================
+                
+// QUESTION # 01:
+// function currentTime(){
+//         console.log(new Date())
+// }
+// currentTime();
+
+// QUESTION # 02:
+// function name(){
+//         var firstName = prompt("Enter Your First Name: ")
+//         var lastname = prompt("Enter Your Last Name: ")
+//         var fullName =firstName + lastname
+//         console.log("Hello " +fullName)
+// }
+// name()
+
+// QUESTION # 03
 
 
+// function sum(){
+//         var num1 = +prompt("Enter num 1:")
+//         var num2 =+prompt("Enter num2")
+//         var a = num1 + num2
+//         return a;
+// }
+// console.log(sum());
+   
+// QUESTION # 04:
+// var num1 = +prompt("Enter first number");
+// var opt = prompt("Enter Operaor")
+// var num2 =+prompt("Enter second number")
+// function calc(num1 , opt ,num2){
+//         if(opt.trim()==="+"){
+//                 return ("Addition of" + num1 + "and" + num2 + "=" + (num1 + num2))
+//         }
+
+// else if (opt.trim() === "-"){
+//         return ("Substraction of" + num1 +"and" + num2 + "=" + (num1-num2))
+// }
+// else if (opt.trim() === "*") {
+//                 return ("Multiplication of " + num1 + " and " + num2 + " = " + (num1 * num2))
+//             }
+//             else if (opt.trim() === "/") {
+//                 return ("Division of " + num1 + " and " + num2 + " = " + (num1 / num2))
+//             }
+//             else {
+//                 return "Enter Valid Input"
+//             }
+//         }
+//         var calculate = calc(num1, opt, num2)
+//         document.write(calculate)
+
+// QUESTION # 05:
+// function square(a){
+//         return a**2
+// }
+// var num = +prompt("Enter a number to find its square")
+// var squared = square(num)
+// document.write("Your Number : " +" "+ num +"<br>")
+// document.write("Square of Your number:" +" "+ squared)
+
+// QUESTION # 06:
+// // 1st Method
+// function factorial(n) {
+//     if (n < 0) {
+//         return "Factorial of negative number is not possible"
+//     }
+//     if (n == 0) {
+//         return 1
+//     }
+//     else {
+//         return (n * factorial(n - 1))
+//     }
+// }
+// var num = +prompt("Enter any positive number")
+// var fac = factorial(num)
+// document.write("Factorial of " + num + " is " + fac)
+//
+// // 2nd Method
+// function factorial(num) {
+//     if (num < 0) {
+//         return "Factorial of negative number is not possible"
+//     }
+//     else if (num === 0) {
+//         return 1
+//     }
+//     else {
+//         for (var i = num - 1 ; i >= 1 ; i--) {
+//             num = num * i
+//         }
+//         return num
+//     }
+// }
+// var num = +prompt("Enter any positive integer")
+// var fact = factorial(num)
+// document.write("Factorial of " + num + " is " + fact)
+
+// QUESTION # 07:
+// var num1 = +prompt("Enter Starting Number")
+// var num2 = +prompt("Enter Last Number")
+// function count() {
+//     if (num1 <= num2) {
+//         for(var i = num1 ; i <= num2 ; i++) {
+//             document.write(i + "<br>")
+//         }
+//     }
+//     else {
+//         alert("Please Enter in Ascending Order")
+//     }
+// }
+// count()
+
+// QUESTION # 08:
+// var base =+prompt("Enter Base of a Right Angled Triangle")
+// var perp =+prompt("Enter Perpendicular of a Right Angled Triangle")
+
+// function calculateHypotenuse(base,perp){
+//         var hypo = Math.sqrt(base**2 + perp**2)
+//         return hypo
+// }
+
+// var hypotenuse = calculateHypotenuse(base,perp)
+// function calculateSquare(){
+//         var squared = hypotenuse**2
+//         return squared
+// }
+// var squaredHyp = calculateSquare()
+// document.write("Hypotenuse of your Right Angled Triangle is: " +hypotenuse +"<br>")
+// document.write("Square of the Hypotenuse is : " + squaredHyp)
+
+// QUESTION # 09:
+// var width = +prompt("Enter Width")
+// var heigth =+prompt("Enter Height")
+// function calculateArea(width,height){
+//         var area =width * height
+//         return area
+// }
+
+// var varArea = calculateArea (width,heigth)
+// var valArea = calculateArea(5,6)
+// document.write("Area calculated from user's input i.e. Arguments as Variables : " +" "+ varArea +"<br><br>")
+// document.write("Area calculated from already given values i.e. Arguments as Value : " +valArea)
 
 
+// QUESTION # 10:
+// var input = prompt("Enter any word to check if its a Palindrome")
+// function checkPalindrome(input) {
+//     var string = input.toLowerCase().replace(" ","")
+//     var count = 0;
+//     if (string === "") {
+//         alert("Nothing Found!")
+//     }
+//     if ((string.length) % 2 === 0){
+//         count = (string.length) / 2
+//     }
+//     else if (string.length === 1) {
+//         document.write("Entered String is a Palindrome")
+//     }
+//     else {
+//         count = (string.length - 1) / 2
+//     }
+//     var flag = true
+//     for (var i = 0 ; i < count ; i++) {
+//         if (string[i] != string.slice(-1-i)[0]) {
+//             flag = false
+//         }
+//     }
+//     if(flag === false) {
+//         document.write("Entrered String is not a Palindrome")
+//     }
+//     else if(flag === true) {
+//     document.write("Entered String is a Palindrome")
+//     }
+// }
+// checkPalindrome(input)
 
 
+// QUESTION # 11:
 
+// var string = prompt("Enter any string")
+// function capitialize(string){
+//         var arr = string.split("")
+//         for(var i=0 ; i<arr.length ; i++){
+//                 var word = arr[i][0].toUpperCase()+ arr[i].slice(1).toLowerCase()
+//                 document.write(word +" ")
+//         }
+// }
+// capitialize(string)
+
+
+// QUESTION # 12:
+// var string = prompt("Enter any string")
+// function longestWord(string){
+//         var arr = string.split(" ")
+//         var largest = ""
+//         for(var i=0 ; i < arr.length ; i++){
+//                 if(arr[i].length > largest.length){
+//                         largest = arr[i]
+//                 }
+//                 else if (arr[i].length == largest.length){
+//                         largest = largest + "," + arr[i]
+//                 }
+//         }
+//         return largest
+// }
+
+// var longLength = longestWord(string)
+// document.write("Entered String: "+string+"<br>")
+// document.write("Longest Word(s) in this Sting : " + longLength)
+
+// QUESTION # 13:
+// var string = prompt("Enter string")
+// var letter = prompt("Enter the letter to be counted")
+// function letterCount(sting, letter){
+//         var count = 0
+//         for (var i=0 ; i<sting.lenght ; i++){
+//                 if (string[i] ==letter){
+//                         count +=1
+//                 }
+//         }
+//         return count
+// }
+// var noOfApperance = letterCount(string , letter)
+// document.write("Given String is => " + string)
+// document.write("<br> No. of " + letter + "(s) appeared in this sting =>" + noOfApperance)
+
+// QUESTION # 14:
+// var radius = prompt("Enter Radius")
+// function calcCircumference(radius) {
+//     var circum = 2 * Math.PI * radius
+//     return circum
+// }
+// function calcArea(radius) {
+//     var area = Math.PI * radius**2
+//     return area
+// }
+// var circumference = calcCircumference(radius)
+// var area = calcArea(radius)
+// document.write("The circumference is " + circumference)
+// document.write("<br> The area is " + area)
 
 
 
