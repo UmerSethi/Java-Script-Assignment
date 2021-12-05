@@ -1424,16 +1424,48 @@
 // document.write("The circumference is " + circumference)
 // document.write("<br> The area is " + area)
 
+ 
 
 
+// --------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        //     CHAPTER 58 - 67:                  
+
+        //  ========================
+
+                //   DOM
+
+        // ===========================
+
+// QUESTION # 01:
+// var mainContent = document.getElementById("main-content");
+// var childs = document.getElementById("main-content").children
+// document.write = ("Childs Elements of 'main-content' element <br>")
+// for(var i=0 ; i < childs.length ; i++){
+//         document.write(childs[i].innerHTML + "<br>")
+// }
+
+// var firstname = document.getElementById("first-name")
+// firstname.value = "Umer"
+// var lastname = document.getElementById("last-name")
+// lastname.value = "Saleem"
+// var emil = document.getElementById("email")
+// email.value = "m.umersethi91@gmail.com"
 
 
-
-
-
-
-
-
-
-
-
+// // QUESTION # 02:
+// var formContentType = document.getElementById("form-content").nodeType
+// document.write("Node Type of Element having id ''form-content'': ", formContentType)
+// var lastName = document.getElementById("lastName")
+// document.write("<br> Node Type of Element having id ''lastName'': " , lastname.nodeType)
+// var childType = lastName.childNodes.nodeType
+// document.write("<br>Node Type of Child Nodes of Element having id ''lastName'' : ", childType)
+// var childType = lastName.childNodes.nodeType
+// document.write("<br> Node Type of child Nodes of Element having id ''lastName'' : " , childType)
+// lastName.innerHTML = "heheh"
+// var mainContent1 = document.getElementById("main-content").firstElementChild
+// var mainContent2 = document.getElementById("main-content").lastElementChild
+// var lastNameN = document.getElementById("lastName").nextElementSibling
+// var lastNameP = document.getElementById("lastName").previousElementSibling
+// var emailParent = document.getElementById("email").parentNode
+// var emailNodeType = document.getElementById("email").nodeType
