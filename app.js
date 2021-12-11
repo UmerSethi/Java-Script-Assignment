@@ -1469,3 +1469,61 @@
 // var lastNameP = document.getElementById("lastName").previousElementSibling
 // var emailParent = document.getElementById("email").parentNode
 // var emailNodeType = document.getElementById("email").nodeType
+
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                // =================================
+                          // OBJECT METHOD
+                // ================================
+
+// QUESTON # 01:
+
+// var itemsArray =[
+//         {name:"juice", price:"50" ,quantity:"3"},
+//         {name:"cookie" , price:"30" , quantity:"9"},
+//         {name:"shirts", price:"880" ,quantity:"1"},
+//         {name:"pen" , price:"100" , quantity:"2"}
+// ]
+
+
+// QUESTION # 02:
+// var std1={
+//         name:"Umer",
+//         emial:"m.umersethi91@gmail.com",
+//         password:"Pakistan145",
+//         age : 21,
+//         gender:"Male",
+//         city:"Karachi",
+//         country:"Pakistan",
+// }
+// var check = "age" in std1
+// console.log(check)
+// var check = "country" in std1
+// console.log(check)
+
+// var check = "firstName" in std1
+// console.log(check)
+// var check = "LastName" in std1
+// console.log(check)
+
+
+// QUESTION # 03:
+// function std(){
+        // this.stdName = "Umer"
+// }
+// var std1 = new std()
+// console.log (std1)
+
+
+// QUESTION # 04:
+// function std(name,gender,address,education,profession){
+//         this.Name = name 
+//         this.Gender = gender
+//         this.Address = address
+//         this.Education = education
+//         this.Profession = profession
+// }
+//  var person1 = new std("Umer" , "Male" ,"House#101" , "Under Graduation" , "Farmer")
+//  var person2 = new std("Ali" , "Male" ,"House#102" , "Marticulation" , "Contractor")
+//  console.log(person2)
